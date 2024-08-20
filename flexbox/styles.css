@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+} /* This set to every element in css file margin and padding to 0. */
+
+.box{
+    background-color: aquamarine;
+    padding: 6px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center; /* aligns only for main-axis horizontally */
+    align-items: center; /* aligns only for cross-axis vertically */
+    flex-wrap: wrap; /* Initially is set to no-wrap as it span the entire width axis */
+    flex-direction: row; /* It is set as row initially and main-axis is horizontally and cross-axis vertically however you can flip by changing it to column */
+    row-gap: 10px; /* you can define spacing between the flex items when it is column */
+    column-gap: 8px; /* you can define spacing between the flex items when it is row */
+    flex: 0 1 auto; /* flex-grow set to 0, flex-shrink to 0 and flex-basis to auto */
+}
+
+.box2,.box3{
+    align-self: flex-start; /* Align individual flex items inside flex container */
+    background-color: lightcyan;
+    flex: 0.2 1 auto; /* It only works in the default settings. when main-axis is set to be horizontal */
+}

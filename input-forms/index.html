@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <head>
+        <title>Input and Forms</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/logo-only.png" alt="logo-linkmup">
+            <h1>LINKMUP</h1>
+        </header>
+        <main>
+            <h2>SIGN UP</h2>
+            <div>
+                <label for="user_first_name">First Name</label><br>
+                <input type="text" id="user_first_name" name="user_first_name">
+            </div>
+            <div>
+                <label for="user_last_name">Last Name</label><br>
+                <input type="text" id="user_last_name" name="user_last_name">
+            </div>
+            <div>
+                <label for="user_email">Email</label><br>
+                <input type="email" id="user_email" name="user_email">
+            </div>
+            <div>
+                <label for="user_password">Password</label><br>
+                <input type="password" id="user_password" name="user_password" required minlegth="8" maxlength="16">
+            </div>
+            <div>
+                <label for="user_confirm_password">Confirm Password</label><br>
+                <input type="password" id="user_confirm_password" name="user_confirm_password" required minlegth="8" maxlength="16">
+            </div>
+            <div>
+                <button type="submit">SIGN UP</button>
+            </div>
+        </main>
+        <footer>
+            <p>Copyright@LINKMUP</p>
+        </footer>
+    </body>
+</html>

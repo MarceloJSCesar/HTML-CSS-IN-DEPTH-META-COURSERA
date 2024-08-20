@@ -1,0 +1,26 @@
+.navbar-flexbox-container{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px 20px 0;
+    flex-wrap: wrap;
+    flex: 0 1 auto;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.navbar{
+    text-decoration: none;
+    background-color: none;
+    border-radius: 20px;
+    padding: 6px;
+    color: black;
+    width: 80px;
+}
+
+.navbar4{
+    background-color: lightgreen;
+}
+
+.navbar:hover{
+    background-color: aqua;
+}

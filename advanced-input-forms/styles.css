@@ -1,0 +1,13 @@
+input[type=date] {
+    width: 30%;
+    border-radius: 16px;
+    border-color: lightgrey;
+    height: 20px;
+}
+
+input[type=range] {
+    width: 30%;
+    border-radius: 16px;
+    border-color: lightgreen;
+    height: 20px;
+}
