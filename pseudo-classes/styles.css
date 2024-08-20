@@ -1,0 +1,93 @@
+/*
+
+Pseudo Classes
+    User Action States
+        - :hover - when cursor is over it
+        - :active - only pressed
+        - :focus - focus on the elements you used before
+
+    Forms
+        - :disabled and :enabled - used for buttons
+        - :checked and :indeterminate - used for checkboxes
+        - :valid and :invalid - for fields for emails and phone numbers ...
+
+    Specific Position-Based States
+        - :first-of-type
+        - :last-of-type
+        - :nth-of-type()
+        - :nth-last-of-type()
+    
+    Others:
+        - ::first-letter - takes affects to the only first letter
+        - ::first-line - takes affects to the only first line
+        - ::selection - it takes affects when user highlightes the text
+        - ::marker - you can add styles to the text, inside the {content: '<> '}
+        - ::before and ::after - it allows you to add content before and after a text, inside the {content: '!!'}
+
+    Follow the rule LVHA to avoid oevrwrite the rules already defined
+        - :link 
+        - :visited
+        - :hover
+        - :active
+
+    You can create a seperate file only pseudo-classes
+*/
+
+*{
+    padding:0;
+    margin: 0;
+}
+
+.header{
+    background-color:azure;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 5vh;
+}
+
+.navigation{
+    display: flex;
+    column-gap: 6px;
+}
+
+nav > li{
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav > li > a{
+    text-decoration: none;
+    text-transform: none;
+}
+
+.resume{
+    margin-right: 40px;
+}
+
+
+/* Examples fo Pseudo classes */
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    background-color: lightblue;
+}  
+
+a:active{
+    padding: 4px;
+    background-color: black;
+}
+
+.see-resume:active{
+    padding: 4px;
+    background-color: aqua;
+}

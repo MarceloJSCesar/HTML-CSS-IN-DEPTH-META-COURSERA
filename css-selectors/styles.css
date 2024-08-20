@@ -1,0 +1,30 @@
+/*
+Combination selectors:
+    - Descendant selectors(using space);
+    - Child selectors (>);
+    - General sibling selectors (˜);
+    - Adjacent sibling selectors (+);
+*/
+
+/* Descendant selectors 
+#blog h1{
+   color: blue; 
+}
+*/
+
+/* Child selectors
+#blog > h1{
+    color: blue;  only first h1 will be blue because he is the only h1 child of blog attribute
+}
+*/
+
+/* General sibling selectors
+h1 ~ p{
+    color: blue; it will be blue all the p inside the parent of h1
+}
+*/
+
+/* Adjacent sibling selectors - will target only the first tag after h1 if it mataches the specified element p. in order words if the next first element after h1 is p it turns blue otherwise no.it works for evry h1 tags in the code */
+h1 + p{
+    color: blue;
+}
