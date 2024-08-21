@@ -1,0 +1,28 @@
+.a{
+    margin: 30px;
+}
+
+.a:hover{
+    transform: rotateX(60deg);
+    transition: 2s;
+}
+
+.b:hover{
+    margin: 200px;
+    transform: rotate(20deg);
+    transition: 5s;
+}
+
+.box1{
+    display: grid;
+    margin: 100px;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.box1:hover{
+    transform: rotateZ(60deg);
+    transition: 2s;
+    background-color: aqua;
+}

@@ -1,0 +1,24 @@
+h1 + p{
+    font-size: 14px;
+    color: grey;
+    text-wrap: wrap;
+}
+
+div > h1{
+    font-size: 20px;
+}
+
+div{
+    width: 50%;
+}
+
+div > p:hover{
+    text-wrap: nowrap;
+    width: 10px;
+    height: 10px;
+    text-overflow: clip;
+}
+
+div > p:hover::selection{
+    color: red;
+}
