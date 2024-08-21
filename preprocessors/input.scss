@@ -1,0 +1,11 @@
+$input-font-size: 14px;
+$input-padding: 8px 12px;
+$input-border-radius: 4px;
+$color: yellow;
+
+.input-style {
+  font-size: $input-font-size;
+  padding: $input-padding;
+  border-radius: $input-border-radius;
+  color: $color;
+}

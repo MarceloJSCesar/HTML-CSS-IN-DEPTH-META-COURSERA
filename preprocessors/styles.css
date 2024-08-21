@@ -1,0 +1,13 @@
+:root {
+    --input-font-size: 14px;
+    --input-padding: 8px 12px;
+    --input-border-radius: 4px;
+    --color: red;
+}
+  
+  div > p#description{
+    font-size: var(--input-font-size);
+    padding: var(--input-padding);
+    border-radius: var(--input-border-radius);
+    color: var(--color);
+  }
